@@ -50,8 +50,8 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <CheckBox Grid.Column="0" Content="Checked" IsChecked="False"/>
-        <CheckBox Grid.Column="1"  Content="UnChecked" IsChecked="True"/>
-        <CheckBox Grid.Column="2" Content="Indeterminate" IsChecked="{x:Null}"/>
+        <CheckBox Grid.Column="0" Content="checked" IsChecked="False"/>
+        <CheckBox Grid.Column="1"  Content="unchecked" IsChecked="True"/>
+        <CheckBox Grid.Column="2" Content="indeterminate" IsChecked="{x:Null}"/>
     </Grid>
 </Window>
